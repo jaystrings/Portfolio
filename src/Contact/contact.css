@@ -5,6 +5,9 @@
     gap:12%
 }
 
+.spyro{
+    text-align:center;
+}
 .contact__options{
     display:flex;
     flex-direction: column;
@@ -61,11 +64,19 @@ input,textarea{
         grid-template-columns:1fr;
         gap:2rem
     }
+    .spyro{
+        margin-top:-100px;
+        text-align: center;
+    }
 
 } 
 @media screen and (max-width:600px){
     .container.contact__container{
         width: var(--container-width-sm);
     }
-
+    .spyro{
+        margin-top:-100px;
+        text-align: center;
+    }
+    
 } 

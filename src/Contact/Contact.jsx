@@ -16,7 +16,7 @@ const Contact = () => {
   }
   return (
     <section id='contact'>
-      <h2>Contact</h2>
+      <h3 className='spyro'>Contact</h3>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -36,7 +36,7 @@ const Contact = () => {
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+2348101889366</h5>
-            <a href="https://api.whatsapp.com/send?phone=+2348101889366">Send a message </a>
+            <a href="https://wa.me/2348101889366">Send a message </a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

@@ -87,5 +87,13 @@ header{
     .scrolls{
         display:none;
     }
-
+    .me{
+       margin-left: 25%; 
+       width:60%
+       
+    }
+    .me img{
+        height:320px;
+    }
+    
 } 

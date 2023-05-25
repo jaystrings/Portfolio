@@ -5,7 +5,7 @@ import React from 'react'
 const Experience = () => {
   return (
    <section id='experience'>
-    <h3 style={{textAlign:'center'}}>Experience</h3>
+    <h3 className='yourguy' style={{textAlign:'center'}}>Experience</h3>
 
     <div className="container experience__container">
         <div className="experience__frontend">

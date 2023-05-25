@@ -1,8 +1,8 @@
 import React from 'react'
 import './portfolio.css'
 import imgfirst from '../Assets/imgfirst.jpg'
-import IMG2 from '../Assets/apparel.png'
-import IMG3 from '../Assets/portfolio3.jpg'
+import IMG2 from '../Assets/studios.jpg'
+import IMG3 from '../Assets/fylo.jpg'
  
 const data = [
   {
@@ -15,16 +15,16 @@ const data = [
   {
     id:2,
     image:IMG2,
-    title:'ESTORE',
-    github: '',
-    demo : ''
+    title:'STUDIO3',
+    github: 'https://https://github.com/jaystrings/drum-kits.git',
+    demo : 'https://studio4john.netlify.app/'
   },
   {
     id:3,
     image:IMG3,
-    title:'lll',
-    github: 'gitsx',
-    demo : 'urld'
+    title:'FYLO',
+    github: 'https://github.com/jaystrings/newfylo.git',
+    demo : 'https://jayfylochal.netlify.app'
   },
 
 ]
@@ -33,7 +33,7 @@ const Portfolio = () => {
 
   return ( 
     <section id='portfolio'>
-      <h2>Portfolio</h2>
+      <h3 style={{textAlign:'center'}}>Portfolio</h3>
       <div className="container portfolio__container">
         {data.map((c)=>{
             return(
