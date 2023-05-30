@@ -52,7 +52,7 @@ h1,h2,h3,h4,h5{
 
   section > h2, section h5{
     text-align:center;
-    color: var(--color-light)
+    color: var(--color-light);
   }
 
   section >h2{
@@ -92,7 +92,6 @@ a:hover{
 .btn-primary{
   background:var(--color-primary);
   color:var(--color-bg);
-  /* background: yellowgreen; */
 }
 
 img{
