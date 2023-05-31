@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import imgfirst from '../Assets/imgfirst.jpg'
 import IMG2 from '../Assets/studios.jpg'
-import IMG3 from '../Assets/fylo.jpg'
+import IMG3 from '../Assets/apparel.png'
  
 const data = [
   {
@@ -22,9 +22,9 @@ const data = [
   {
     id:3,
     image:IMG3,
-    title:'FYLO',
-    github: 'https://github.com/jaystrings/newfylo.git',
-    demo : 'https://jayfylochal.netlify.app'
+    title:'FSTORE',
+    github: 'https://github.com/jaystrings/Faithstore.git',
+    demo : 'https://faithstore.netlify.app'
   },
 
 ]
