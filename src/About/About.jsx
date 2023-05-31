@@ -34,7 +34,7 @@ const About = () => {
         </div>
         <p>An innovative, goal oriented and passionate software developer, aiming to leverage my expertise to improve the software development community.
         </p>
-        <a href="#contact" className='btn btn-primary'>Let's talk</a>
+        <a href="#contact" className='talk btn btn-primary'>Let's talk</a>
       </div>
       </div>
     </section>
